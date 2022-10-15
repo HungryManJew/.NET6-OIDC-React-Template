@@ -1,1 +1,1 @@
-# React-.NET6-OIDC-Template
+# .NET6-React-OIDC-Template
