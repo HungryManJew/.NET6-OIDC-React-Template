@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OIDC.ClassLib", "OIDC.ClassLib\OIDC.ClassLib.csproj", "{42951ECE-D66D-41EB-B5DA-B619FDF1347E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OIDC.WebApi", "OIDC.WebApi\OIDC.WebApi.csproj", "{3286CC51-60CA-4A0A-85BC-31CCDDF1D93D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OIDC.RSAGenerator", "OIDC.RSAGenerator\OIDC.RSAGenerator.csproj", "{3F1F9400-39D1-4B1B-BC4F-F7D25F956D33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OIDC.WebApp", "OIDC.WebApp\OIDC.WebApp.csproj", "{38E91394-6256-44FA-816F-67C0A2C9F95C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42951ECE-D66D-41EB-B5DA-B619FDF1347E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42951ECE-D66D-41EB-B5DA-B619FDF1347E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42951ECE-D66D-41EB-B5DA-B619FDF1347E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42951ECE-D66D-41EB-B5DA-B619FDF1347E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3286CC51-60CA-4A0A-85BC-31CCDDF1D93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3286CC51-60CA-4A0A-85BC-31CCDDF1D93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3286CC51-60CA-4A0A-85BC-31CCDDF1D93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3286CC51-60CA-4A0A-85BC-31CCDDF1D93D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F1F9400-39D1-4B1B-BC4F-F7D25F956D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F1F9400-39D1-4B1B-BC4F-F7D25F956D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F1F9400-39D1-4B1B-BC4F-F7D25F956D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F1F9400-39D1-4B1B-BC4F-F7D25F956D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E91394-6256-44FA-816F-67C0A2C9F95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E91394-6256-44FA-816F-67C0A2C9F95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E91394-6256-44FA-816F-67C0A2C9F95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E91394-6256-44FA-816F-67C0A2C9F95C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

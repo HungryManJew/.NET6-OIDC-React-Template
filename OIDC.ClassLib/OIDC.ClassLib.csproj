@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Automapper" Version="11.0.1" />
+    <PackageReference Include="Automapper.Collection" Version="8.0.0" />
+    <PackageReference Include="Automapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Serilog.AspNetCore" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DTOs\" />
+  </ItemGroup>
+
+</Project>
